@@ -1,6 +1,6 @@
 {
   "name": "json2xml-cli",
-  "version": "1.0.0-beta",
+  "version": "1.0.0-beta.1",
   "description": "A command line interface to the json2xml NPM package",
   "license": "MIT",
   "homepage": "https://github.com/bsara/json2xml-cli#readme",

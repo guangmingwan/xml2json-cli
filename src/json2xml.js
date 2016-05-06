@@ -75,7 +75,7 @@ const successMsg = chalk.green;
 
 
   commander
-    .version("1.0.0-beta")
+    .version("1.0.0-beta.1")
     .usage("(-i jsonFilePath | -j json) [options]")
     .option("-i, --input-file <jsonFilePath>", "Input JSON file path", _parseJSONFile)
     .option("-j, --json <json>",               "Input JSON", _parseJSONString)
