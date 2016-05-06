@@ -79,7 +79,7 @@ const successMsg = chalk.green;
     .usage("(-i jsonFilePath | -j json) [options]")
     .option("-i, --input-file <jsonFilePath>", "Input JSON file path", _parseJSONFile)
     .option("-j, --json <json>",               "Input JSON", _parseJSONString)
-    .option("-o, --out <outFilePath>",         "Output XML file path")
+    .option("-o, --out <outFilePath>",         "Output XML file path (default: 'out.xml')")
     .option("-k, --key <attributesKey>",       "Key for reading attributes from JSON")
     .option("--header",                        "Adds standard XML header to output file")
     .parse(process.argv);
