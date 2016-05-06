@@ -1,0 +1,14 @@
+{
+  "root": {
+    "node0": 42,
+    "node1": "Fish fingers and custard",
+    "node2": {
+      "node2-1": "Thanks for all the fish!!!"
+    },
+    "node3": [
+      "node3 item0",
+      "node3 item1",
+      "node3 item2"
+    ]
+  }
+}

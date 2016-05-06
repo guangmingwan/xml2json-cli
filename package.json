@@ -1,0 +1,39 @@
+{
+  "name": "json2xml-cli",
+  "version": "1.0.0-beta",
+  "description": "A command line interface to the json2xml NPM package",
+  "license": "MIT",
+  "homepage": "https://github.com/bsara/json2xml-cli#readme",
+  "repository": "bsara/json2xml-cli",
+  "author": "Brandon Sara (http://bsara.github.io)",
+  "contributors": [],
+  "keywords": [
+    "json",
+    "xml",
+    "convert",
+    "converter",
+    "conversion"
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "preferGlobal": true,
+  "main": "src/index.js",
+  "bin": {
+    "json2xml": "src/index.js"
+  },
+  "files": [
+    "src/index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "fancy-log": "^1.2.0",
+    "json2xml": "^0.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^2.9.0"
+  }
+}
