@@ -18,12 +18,12 @@
     "lint": "eslint ."
   },
   "preferGlobal": true,
-  "main": "src/index.js",
+  "main": "src/json2xml.js",
   "bin": {
-    "json2xml": "src/index.js"
+    "json2xml": "src/json2xml.js"
   },
   "files": [
-    "src/index.js",
+    "src/json2xml.js",
     "LICENSE",
     "README.md"
   ],
