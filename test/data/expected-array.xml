@@ -1,1 +1,35 @@
-<root><int-array><int-array-item>0</int-array-item><int-array-item>1</int-array-item><int-array-item>2</int-array-item></int-array><string-array><string-array-item>item 0</string-array-item><string-array-item>item 1</string-array-item><string-array-item>item 2</string-array-item></string-array><object-array><object-array-item><int-val>0</int-val><string-val>string val 0</string-val><object-val><val>object-val 0 value</val></object-val></object-array-item><object-array-item><int-val>1</int-val><string-val>string val 1</string-val><object-val><val>object-val 1 value</val></object-val></object-array-item><object-array-item><int-val>2</int-val><string-val>string val 2</string-val><object-val><val>object-val 2 value</val></object-val></object-array-item></object-array></root>
+<root>
+    <int-array>
+        <int-array-item>0</int-array-item>
+        <int-array-item>1</int-array-item>
+        <int-array-item>2</int-array-item>
+    </int-array>
+    <string-array>
+        <string-array-item>item 0</string-array-item>
+        <string-array-item>item 1</string-array-item>
+        <string-array-item>item 2</string-array-item>
+    </string-array>
+    <object-array>
+        <object-array-item>
+            <int-val>0</int-val>
+            <string-val>string val 0</string-val>
+            <object-val>
+                <val>object-val 0 value</val>
+            </object-val>
+        </object-array-item>
+        <object-array-item>
+            <int-val>1</int-val>
+            <string-val>string val 1</string-val>
+            <object-val>
+                <val>object-val 1 value</val>
+            </object-val>
+        </object-array-item>
+        <object-array-item>
+            <int-val>2</int-val>
+            <string-val>string val 2</string-val>
+            <object-val>
+                <val>object-val 2 value</val>
+            </object-val>
+        </object-array-item>
+    </object-array>
+</root>

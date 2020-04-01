@@ -1,20 +1,20 @@
-# json2xml-cli
+# xml2json-cli
 
-> A command line interface to the [json2xml][json2xml] NPM package.
+> A command line interface to the [xml2json][xml2json] NPM package.
 
 
 ## Install
 
 ```sh
-$ npm install -g json2xml-cli
+$ npm install -g xml2json-cli
 ```
 
 
 ## Usage
 
 ```sh
-$ json2xml -i file.json
-$ json2xml -j '{ value0: 42, value1: "fish fingers and custard" }'
+$ xml2json -i file.json
+$ xml2json -j '{ value0: 42, value1: "fish fingers and custard" }'
 ```
 
 ##### Options
@@ -25,8 +25,8 @@ $ json2xml -j '{ value0: 42, value1: "fish fingers and custard" }'
 -i, --input-file <jsonFilePath>   Input JSON file path
 -j, --json <json>                 Input JSON
 -o, --out <outFilePath>           Output XML file path (default: 'out.xml')
--k, --key <attributesKey>         Key for reading attributes from JSON (see json2xml docs for more details)
---header                          Adds standard XML header to output file (see json2xml docs for more details)
+-k, --key <attributesKey>         Key for reading attributes from JSON (see xml2json docs for more details)
+--header                          Adds standard XML header to output file (see xml2json docs for more details)
 ```
 
 
@@ -56,4 +56,4 @@ THE SOFTWARE.
 
 
 
-[json2xml]: https://www.npmjs.com/package/json2xml "json2xml NPM Package"
+[xml2json]: https://www.npmjs.com/package/xml2json "xml2json NPM Package"
